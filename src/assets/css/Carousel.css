@@ -1,0 +1,35 @@
+.small_carausel span{
+    font-size: 14px !important;
+    color: rgb(93,62,188);
+
+}
+.InfiniteCarouselSlide img {
+    width: 100% !important;
+}
+@media(min-width:767px){
+    .InfiniteCarouselArrowIcon,
+    .InfiniteCarouselArrowPrevIcon{
+        display: none !important;
+    }
+}
+@media(min-width:1200px){
+    .InfiniteCarouselArrowIcon{
+        position: absolute !important;
+        margin-left: 1rem !important;
+        display: block;
+    }
+    .InfiniteCarouselArrowPrevIcon {
+        position: absolute ! important;
+        margin-left: -2rem !important;
+        display: block;
+    }
+    .InfiniteCarouselArrowIcon,
+    .InfiniteCarouselArrowPrevIcon {
+        display: inline-block;
+        padding: 6px !important;
+        border: solid rgb(93,62,188) !important;
+        border-width: 0 3px 3px 0 !important;
+        display: block !important;
+    }
+
+}

@@ -1,0 +1,93 @@
+.register_modal input::placeholder{
+    font-size: 13px;
+}
+.register_modal .modal-content{
+    width: 80%;
+}
+.location_modal{
+    z-index: 1299;
+}
+.location_modal .btn-close{
+    background-color: #f3f3f4 !important;
+    font-size: 10px;
+    padding: 10px;
+}
+.location_modal .locationbutton{
+    background-color: #a2a2a2 !important;
+    border: none !important;
+    font-size: 13px;
+    padding: 10px 10px ;
+}
+.la
+.signIn_modal h5,
+.register_modal h5,
+.language_modal h5{
+    color: rgb(93, 62, 188);
+    font-size: 16px;
+}
+.location_modal input[type=text]{
+    text-indent: 40px !important;
+}
+
+.location_modal input:focus{
+   
+    color: black !important;
+  background-color:none !important;
+  border-color: white !important;
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+.signIn_modal .close,
+.register_modal .close,
+.language_modal .close{
+    background-color: #eaeaea;
+    font-size: 9px !important;
+    font-weight: 600;
+}
+.react-tel-input input{
+    height: 49px !important;
+}
+.signIn_modal button{
+    background-color: #ffd300;
+    color: rgb(93, 62, 188);
+    border: none;
+    font-size: 14px;
+    padding: 10px 10px;
+}
+.register_modal button{
+    background-color: #5d3ebc;
+    font-weight: 600;
+    font-size: 14px;
+}
+.language_modal button{
+    background-color: #a2a2a2;
+    font-size: 14px;
+    border: none;
+    padding: 10px;
+    font-weight: 500;
+}
+.language_modal .border-1{
+    border: 1px solid rgb(238, 238, 238) !important;
+}
+.signIn_modal button:hover{
+    background-color: #5d3ebc;
+    color: #ffd300;
+    font-weight: 500;
+}
+.signIn_modal .description,
+.signIn_modal .modal-footer p,
+.register_modal .description,
+.register_modal .modal-footer p,
+.register_modal .description2{
+    font-size: 13px;
+}
+.register_modal .description2{
+    margin-bottom: 60px;
+}
+.signIn_modal .description a,
+.signIn_modal .modal-footer a,
+.register_modal .description a,
+.register_modal .modal-footer a{
+    font-size: 13px;
+    color: rgb(93, 62, 188);
+}

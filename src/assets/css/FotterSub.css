@@ -1,0 +1,37 @@
+.fottersub{
+    background-color: white;
+    padding: 10px;
+    /* height: 20vh; */
+}
+.fottersub ul li{
+    font-size: 13px;
+    color:#5d3ebc
+}
+.fottersub p{
+    font-size: 13px;
+}
+.fottersub i{
+    color: #697488 !important;
+    font-size: 18px;
+}
+.fottersub_language{
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    padding: 5px;
+}
+.fottersub_language i,
+.fottersub_language span{
+    font-size: 15px;
+    color:#697488
+}
+
+@media (min-width:768px){
+    .fottersub_language span{
+        display: none;
+    }
+}
+@media (min-width:1200px){
+    .fottersub_language span{
+        display: block;
+    }
+}

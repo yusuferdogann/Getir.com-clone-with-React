@@ -1,0 +1,35 @@
+.fotter_area{
+    background-color: white;
+ 
+}
+.fotter_area ul{
+    padding: 0px;
+}
+.fotter_area ul li{
+    list-style-type: none;
+    font-size: 14px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.fotter_area p{
+    color: #5d3ebc;
+    font-size: 20px;
+
+}
+.redirect img{
+    width: 130px;
+    border-radius: 8px;
+}
+.qr_code img{
+    width: 70px;
+    height: 70px;
+    /* padding: 0px; */
+    margin-right:-13px !important;
+    position: relative;
+    
+}
+@media(min-width:768px){
+    .qr_code{
+        display: none;
+    }
+}

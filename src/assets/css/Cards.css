@@ -1,0 +1,43 @@
+.Card{
+    /* width: 325px; */
+    height: 353px;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+   
+}
+.Card_content{
+    align-items: center;
+    background-color: white;
+    height:100%;
+    border-radius: 8px;
+    padding: 10px !important;
+}
+.Card_content_detail{
+    justify-content: center;
+    align-self: center;
+    background-color: white;
+    
+}
+.Card_content img{
+    align-items: center;
+    background-color: white;
+}
+.Card_content p{
+    align-items: center;
+    background-color: white;
+    color: #697488;
+}
+.Card_content h5{
+    align-items: center;
+    background-color: white;
+    color: #5d3ebc;
+}
+.Card img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    justify-content: center;
+    display: flex;
+    
+}

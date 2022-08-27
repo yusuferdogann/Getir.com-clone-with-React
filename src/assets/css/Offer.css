@@ -1,0 +1,110 @@
+.offer_box{
+    max-width: 400px;
+    height: 200px;
+    border-radius: 8px;
+}
+.offer_box img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+.offer_content{
+    top: 0;
+    /* background-color: red; */
+    background-color: transparent;
+    /* overflow: hidden; */
+}
+.offer_box_long{
+    height: 312px;
+    border-radius: 8px;
+    width: 100%;
+}
+.long_image_content{
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
+.offer_content_sub,
+.offer_content_sub h4,
+.offer_content_sub h6{
+    background-color: transparent;
+    color: white;
+}
+
+.redirect_storage{
+    background-color: transparent;
+}
+.redirect_storage img{
+    width: 150px;
+}
+.phone{
+  
+    bottom:-40px;
+}
+.phone{
+    z-index: 34 !important;
+    height: 50px;
+    position: absolute;
+    top: 84px;
+    margin-right: 10px;
+    background-color: red;
+    height: 230px;
+    right:  -10px !important;
+    background-color: transparent;
+    /* bottom: 0px !important; */
+    border-radius: 0px 0px 8px 0px;
+    width: auto;
+}
+.perde{
+    height: 100%;
+    width: 50%;
+    right: 0;
+    /* background-color: red; */
+    z-index: 342;
+    position: absolute;
+    top: 0;
+    /* overflow: hidden; */
+    border-radius: 0px 10px 10px 0px;
+}
+@media(min-width:768px){
+  
+    .perde{
+        height: 100%;
+        width: 45%;
+        right: 0;
+        /* background-color: red; */
+        z-index: 342;
+        position: absolute;
+        top: 0;
+        overflow: hidden;
+        border-radius: 0px 10px 10px 0px;
+    }
+    .phone{
+        height: 95%;
+        bottom: -10%;
+        /* width: 50%; */
+        top: 16px !important;
+        object-fit: cover;
+        top: 0;
+        margin-right: -70%;
+        overflow-x: hidden;
+    }
+}
+
+@media(min-width:992px){
+.perde{
+    height: 100%;
+    width: 55%;
+    right: 0;
+    /* background-color: red; */
+    z-index: 342;
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+    border-radius: 0px 10px 10px 0px;
+}
+.phone{
+    margin-right: 0px;
+}
+}
